@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer utilities {
+    .c-gradient {
+        background: rgb(101,82,200);
+        background: linear-gradient(117deg, rgba(101,82,200,1) 0%, rgba(15,15,15,1) 9%, rgba(0,0,0,1) 80%, rgba(232,120,207,1) 100%);
+    }
+    .c-glass {
+        background: rgba( 255, 255, 255, 0.2 );
+        box-shadow: 0 8px 32px 0 rgba(188, 189, 201, 0.37);
+        backdrop-filter: blur( 13px );
+        -webkit-backdrop-filter: blur( 13px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+
+}
+

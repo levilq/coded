@@ -1,7 +1,7 @@
 <template>
 
-    <div class="bg-fixed" style="background-image: url(/images/background.svg)">
-        <div class="px-12 pt-14 pb-16 text-white">
+    <div class="bg-fixed bg-no-repeat bg-cover" style="background-image: url(/images/background.svg)">
+        <div class="md:px-12 px-5 pt-10 pb-16 text-white">
             <div class="c-glass">
                 <div class="py-12">
                     <img class="mx-auto h-16" src="/images/coded-logo.svg">
@@ -11,10 +11,10 @@
                     <text-animation class="text-center">Hello!!! This is CODED</text-animation>
                 </div>
 
-                <div class="flex px-16 grid grid-cols-1 lg:grid-cols-2">
+                <div class="flex md:px-16 grid grid-cols-1 lg:grid-cols-2">
                     <div class="my-auto  text-center">
-                        <h1 class="text-6xl font-bold">Hello World!</h1>
-                        <div class="flex pt-5 mx-auto justify-center">
+                        <h1 class="md:text-6xl text-4xl w-full font-bold">Hello World!</h1>
+                        <div class="flex pt-5 mx-auto justify-center px-16">
                             <p class="text-6xl font-bold">It's</p>
                             <img class="h-11 mt-2 ml-3" src="/images/coded.svg">
                         </div>
@@ -23,7 +23,7 @@
                             our ready-made solutions into your project</p>
                     </div>
 
-                    <div class="pt-8 lg:ml-48 justify-center flex">
+                    <div class="pt-8 pb-9 lg:ml-48 justify-center flex">
                         <img class="h-96" src="/images/banner12.svg">
                     </div>
                 </div>
@@ -246,7 +246,7 @@
 
         <div class="w-full min-h-screen flex items-center justify-center bg-transparent">
             <div class="md:w-2/3 w-full px-4 text-white flex flex-col">
-                <div class="w-full text-7xl font-bold">
+                <div class="w-full text-4xl md:text-7xl font-bold">
                     <h1 class="w-full md:w-2/3">How can we help you. get
                         in touch</h1>
                 </div>
@@ -255,7 +255,7 @@
                         integrate
                         our ready-made solutions into your project</p>
                     <div class="w-44 pt-6 md:pt-0">
-                        <a href="mailto:sultonazar@outlook.com" class="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">Contact
+                        <a href="mailto:sultonazar@outlook.com" class="hover:animate-pulse c-glass justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">Contact
                             US</a>
                     </div>
                 </div>

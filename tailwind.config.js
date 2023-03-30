@@ -18,7 +18,7 @@ module.exports = {
             colors:{
                 primary: '#F8016A',
                 secondary: '#6D6D6D',
-                cbrown:'#303030',
+                cbrown:'#1a1a1a',
                 cprimary:'#424242',
             },
             backgroundImage: {
